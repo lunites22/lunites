@@ -1,0 +1,587 @@
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+* {
+    font-family: "Luckiest Guy", sans-serif !important;
+}
+
+.header_blue {
+    background: #1565c0;
+    padding: 80px 0 20px;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.header_text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.unlockBtn:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.unlockBtn {
+    background: #0baee4;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    min-height: 31px;
+    min-width: 70px;
+    padding: 2px 16px;
+    text-align: center;
+    text-shadow: none;
+    text-transform: uppercase;
+    -webkit-transition: all 280ms ease;
+    transition: all 280ms ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    font: 500 14px/31px Roboto, sans-serif !important;
+    outline: 0 !important;
+    color: white;
+}
+
+.content-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    margin: 0;
+    background: url(https://wallpapercave.com/wp/wp1815441.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flexbox;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    text-align: center;
+}
+
+.content-all {
+    padding: 40px 3px;
+}
+
+.logo {
+    margin: 40px 20px 30px;
+    width: 200px;
+    animation: myAnim2 2s ease-in-out 0s infinite normal forwards;
+}
+
+@keyframes myAnim2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.tx-last {
+    max-width: 440px;
+    color: #e1e1e1;
+    font-size: 17px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.milih-rbx {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.maen4 {
+    font-size: 22px;
+    color: white;
+    animation: animazum 2s;
+    margin-top: 40px;
+}
+
+.z-box {
+    clip-path: polygon(0% 0%,
+            33% 2%,
+            37% 5%,
+            38% 3%,
+            60% 4%,
+            63% 7%,
+            64% 4%,
+            100% 6%,
+            100% 28%,
+            96% 29%,
+            100% 35%,
+            100% 51%,
+            98% 51%,
+            100% 55%,
+            100% 70%,
+            96% 70%,
+            100% 76%,
+            100% 94%,
+            74% 95%,
+            70% 93%,
+            69% 95%,
+            33% 97%,
+            29% 95%,
+            28% 97%,
+            0 100%,
+            0 82%,
+            4% 76%,
+            0 76%,
+            0 53%,
+            2% 50%,
+            0 50%,
+            0 22%,
+            5% 19%,
+            0 14%);
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px;
+    padding-bottom: 60px;
+    position: relative;
+    background-color: rgb(13, 144, 196);
+    z-index: 5;
+    text-align: center;
+}
+
+.z-box:before {
+    position: absolute;
+    display: block;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    clip-path: polygon(0% 0%,
+            33% 2%,
+            37% 5%,
+            38% 3%,
+            60% 4%,
+            63% 7%,
+            64% 4%,
+            100% 6%,
+            100% 28%,
+            96% 29%,
+            100% 35%,
+            100% 51%,
+            98% 51%,
+            100% 55%,
+            100% 70%,
+            96% 70%,
+            100% 76%,
+            100% 94%,
+            74% 95%,
+            70% 93%,
+            69% 95%,
+            33% 97%,
+            29% 95%,
+            28% 97%,
+            0 100%,
+            0 82%,
+            4% 76%,
+            0 76%,
+            0 53%,
+            2% 50%,
+            0 50%,
+            0 22%,
+            5% 19%,
+            0 14%);
+    background: rgb(0, 0, 0);
+    z-index: -2;
+}
+
+.pros-tex {
+    color: #e1e1e1;
+    padding: 10px;
+    text-shadow: 0 0 10px #00706e;
+    font-size: 20px;
+    position: relative;
+    margin: 5px auto 20px;
+    font-family: serif;
+}
+
+.last-tx {
+    color: #c9c9c9;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: serif;
+    text-shadow: #000000 0 0 4px;
+}
+
+.gems-Amount {
+    max-width: 390px;
+    width: 82%;
+    height: auto;
+    background-color: #f0b82b;
+    color: #424242;
+    margin: 5px auto;
+    clip-path: polygon(2.5% 8%, 100% 9%, 96.5% 100%, 0% 92.8%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.gems-Amount:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 3;
+    top: -3;
+    display: block;
+    background-color: #0baee4;
+    position: absolute;
+    z-index: -1;
+    clip-path: polygon(2.5% 8%, 100% 9%, 96.5% 100%, 0% 92.8%);
+}
+
+.gems-Amount:hover {
+    cursor: pointer;
+    background-color: #0baee4;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.gems-Amt-Selec {
+    position: relative;
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #000000;
+    z-index: 1;
+    padding: 5px;
+    background-color: #0baee4;
+    clip-path: polygon(2.5% 8%, 100% 9%, 96.5% 100%, 0% 92.8%);
+}
+
+.gems-Amt-Selec:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 3;
+    top: -3;
+    display: block;
+    background-color: #f0b82b;
+    position: absolute;
+    z-index: -1;
+    clip-path: polygon(2.5% 8%, 100% 9%, 96.5% 100%, 0% 92.8%);
+}
+
+.gemsgen {
+    font-size: 22px;
+    color: #00bbff;
+    font-weight: 700;
+    padding: 3px;
+}
+
+.spin-trs {
+    animation: spinz 0.5s infinite;
+    box-shadow: 0 0 5px #d1bc81;
+    border-radius: 40px;
+    margin: 10px;
+    scale: 1.2;
+}
+
+.spin1 {
+    animation: spinz 0.5s ease-in;
+}
+
+@keyframes spinz {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.u-i {
+    max-width: 400px;
+    width: 82%;
+    margin: 30px auto 0;
+    clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 88%);
+    outline: none;
+    text-align: left !important;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.u-i-w:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    background-color: #00bbff;
+    clip-path: polygon(0 9%, 100% 0%, 100% 100%, 0% 88%);
+    z-index: 1;
+}
+
+.eror-pulse {
+    animation: eror-pulse 0.8s;
+}
+
+@keyframes eror-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        border: 2px solid red;
+    }
+}
+
+.text-1 {
+    font-size: 16px;
+    color: #ababab;
+    padding-top: 5px;
+}
+
+.ceklis {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    top: 2px;
+}
+
+.Ls-Tp {
+    font-size: 17px;
+    color: #2b63f0;
+    font-weight: 500;
+}
+
+.des-time {
+    color: #2b63f0;
+    font-size: 20px;
+}
+
+.offer-btn {
+    position: relative;
+    height: auto;
+    max-width: 300px;
+    padding: 0 10px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #1a1a1a;
+    font-size: 28px;
+    z-index: 1;
+    text-decoration: none;
+    background-color: #0baee4;
+    clip-path: polygon(3% 12%,
+            100% 0%,
+            97% 63%,
+            92% 64%,
+            96% 75%,
+            96% 95%,
+            0 90%,
+            2% 50%,
+            7% 35%,
+            2% 33%);
+}
+
+.offer-btn:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 3;
+    top: -3;
+    text-decoration: none;
+    display: block;
+    background-color: #f0b82b;
+    position: absolute;
+    z-index: -1;
+    clip-path: polygon(3% 12%,
+            100% 0%,
+            97% 63%,
+            92% 64%,
+            96% 75%,
+            96% 95%,
+            0 90%,
+            2% 50%,
+            7% 35%,
+            2% 33%);
+}
+
+.gen-text-btn {
+    padding: 15;
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.stp {
+    padding: 20px 2px;
+}
+
+.loadot:after {
+    content: " .";
+    animation: dots 2s steps(1, end) infinite;
+    font-size: 20px;
+    position: relative;
+    margin-left: -4px;
+}
+
+@keyframes dots {
+    20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    35% {
+        color: #c9c9c9;
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    50% {
+        text-shadow: 0.25em 0 0 #c9c9c9, 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+
+    70%,
+    100% {
+        text-shadow: 0.25em 0 0 #c9c9c9, 0.5em 0 0 #c9c9c9;
+    }
+}
+
+.Available {
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    left: -20px;
+    font-style: italic;
+}
+
+.cadre {
+    clip-path: polygon(0% 0%,
+            33% 2%,
+            37% 5%,
+            38% 3%,
+            60% 4%,
+            63% 7%,
+            64% 4%,
+            100% 6%,
+            100% 28%,
+            96% 29%,
+            100% 35%,
+            100% 51%,
+            98% 51%,
+            100% 55%,
+            100% 70%,
+            96% 70%,
+            100% 76%,
+            100% 94%,
+            74% 95%,
+            70% 93%,
+            69% 95%,
+            33% 97%,
+            29% 95%,
+            28% 97%,
+            0 100%,
+            0 82%,
+            4% 76%,
+            0 76%,
+            0 53%,
+            2% 50%,
+            0 50%,
+            0 22%,
+            5% 19%,
+            0 14%);
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    background-color: rgb(13, 144, 196);
+    z-index: 5;
+    text-align: center;
+}
+
+.cadre:before {
+    position: absolute;
+    display: block;
+    left: 3px;
+    top: 3px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    clip-path: polygon(0% 0%,
+            33% 2%,
+            37% 5%,
+            38% 3%,
+            60% 4%,
+            63% 7%,
+            64% 4%,
+            100% 6%,
+            100% 28%,
+            96% 29%,
+            100% 35%,
+            100% 51%,
+            98% 51%,
+            100% 55%,
+            100% 70%,
+            96% 70%,
+            100% 76%,
+            100% 94%,
+            74% 95%,
+            70% 93%,
+            69% 95%,
+            33% 97%,
+            29% 95%,
+            28% 97%,
+            0 100%,
+            0 82%,
+            4% 76%,
+            0 76%,
+            0 53%,
+            2% 50%,
+            0 50%,
+            0 22%,
+            5% 19%,
+            0 14%);
+    background: rgb(0, 0, 0);
+    z-index: -2;
+}
+
+.lgo-follo {
+    margin-right: 10px;
+}
+
+.cpa-btn {
+    text-decoration: none;
+}
+
+#myDi {
+    display: ;
+}

